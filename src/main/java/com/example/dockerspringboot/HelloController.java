@@ -12,5 +12,10 @@ public class HelloController {
         return "hello docker";
     }
 
+    @RequestMapping("test")
+    @ResponseBody
+    public String test() {
+        return "test";
+    }
 
 }
